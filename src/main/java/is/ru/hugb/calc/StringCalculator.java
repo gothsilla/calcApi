@@ -16,6 +16,6 @@ public class StringCalculator {
             }
             return sum;
         }
-        return 1;
+        return Integer.parseInt(input);
     }
 }
