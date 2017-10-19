@@ -4,7 +4,8 @@ import static spark.Spark.*;
 
 public class CalcWeb {
     public static void main(String[] args) {
-        get("/", (req, res) -> {
+        System.out.print(" LALALALALALALLA ");
+	get("/", (req, res) -> {
             return "No route specified. Try /add/1,2";
         });
         get(
